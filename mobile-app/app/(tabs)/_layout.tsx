@@ -11,7 +11,7 @@ export default function TabLayout() {
   return (
     <Tabs
       screenOptions={{
-        tabBarActiveTintColor: Colors[colorScheme ?? 'light'].tint,
+       // tabBarActiveTintColor: Colors[colorScheme ?? 'light'].tint,//
         headerShown: false,
       }}>
       <Tabs.Screen
@@ -37,7 +37,7 @@ export default function TabLayout() {
         options={{
           title: 'Sandwich',
           tabBarIcon: ({ color, focused }) => (
-            <TabBarIcon name={focused ? 'code-slash-icon' : 'code-slash-icon'} color={color} />
+            <TabBarIcon name={focused ? 'woman-sharp' : 'woman'} color={color} />
           ),
         }}
       />

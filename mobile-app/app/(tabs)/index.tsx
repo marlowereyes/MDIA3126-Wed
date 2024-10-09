@@ -3,7 +3,7 @@ import { Link } from 'expo-router'
 
 export default function Page() {
   return (
-    <View>
+    <View className="mx-5 my-20">
       <Link href="/sandwich">Sandwich</Link>
       <Link href="/cheese">Cheese</Link>
     </View>
